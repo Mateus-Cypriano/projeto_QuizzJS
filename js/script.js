@@ -94,7 +94,7 @@ function createQuestion(i) {
     const questionText = question.querySelector("#question-text");
     const questionNumber = question.querySelector("#question-number");
 
-    questionNumber.textContent = questions[i].question;
+    questionText.textContent = questions[i].question;
     questionNumber.textContent = i + 1;
 
     // insere as alternativas
